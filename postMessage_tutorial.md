@@ -65,7 +65,7 @@ Once these steps are completed, you will be given your Bot User OAuth Access Tok
 
 ## Building your Slack App
 
-We can now begin building our Slack App to be able to send messages. In your project folder, create a file with the name `message_tutorial.py`.
+You can now begin building our Slack App to be able to send messages. In your project folder, create a file with the name `message_tutorial.py`.
 
 ### Requirements
 
