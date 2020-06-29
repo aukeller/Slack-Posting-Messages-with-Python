@@ -31,22 +31,22 @@ Finally, you will need to open the project directory, PythonMessaging, in a text
 
 Now that the prerequisites are out of the way, you can create a new Slack app [here](https://api.slack.com/apps?new_granular_bot_app=1). Give the app a name of your choosing, and pick the workspace where you will be sending messages. Click **Create App**
 
-![Creating App](CreatingApp.png)
+![Creating App](https://github.com/aukeller/Slack-Posting-Messages-with-Python/blob/master/images/CreatingApp.png)
 
 To give your app permission to utilize certain features, you'll need to add a [scope](https://api.slack.com/scopes). 
 
 1. On the sidebar of your app, click on **OAuth & Permissions**
 
-![OAuth & Permissions](Oauth.png)
+![OAuth & Permissions](https://github.com/aukeller/Slack-Posting-Messages-with-Python/blob/master/images/Oauth.png)
 
 2. Scroll down to **Bot Token Scopes**
 
-![Scopes](scopes.png)
+![Scopes](https://github.com/aukeller/Slack-Posting-Messages-with-Python/blob/master/images/scopes.png)
 
 3. Click **Add an OAuth Scope**
 4. Choose the `chat:write` scope to allow your app to post messages in a channel
 
-![chat:write](chatwrite.png)
+![chat:write](https://github.com/aukeller/Slack-Posting-Messages-with-Python/blob/master/images/chatwrite.png)
 
 
 Next, you will need to install and authorize your app for your workspace. 
@@ -54,15 +54,15 @@ Next, you will need to install and authorize your app for your workspace.
 1. Navigate back to **OAuth & Permissions** and scroll to the top of the page
 2. Click **Install App to Workspace**
 
-![install app](install.png)
+![install app](https://github.com/aukeller/Slack-Posting-Messages-with-Python/blob/master/images/install.png)
 
 3. When prompted, click **Allow** when requested by your app for permission. 
 
-![allow](allow.png)
+![allow](https://github.com/aukeller/Slack-Posting-Messages-with-Python/blob/master/images/allow.png)
 
 Once these steps are completed, you will be given your Bot User OAuth Access Token. Make sure to save it for later and to treat it like a password!
 
-![token](token.png)
+![token](https://github.com/aukeller/Slack-Posting-Messages-with-Python/blob/master/images/token.png)
 
 ## Building your Slack App
 
