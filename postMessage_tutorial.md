@@ -29,7 +29,7 @@ Finally, you will need to open the project directory, PythonMessaging, in a text
 
 ## Creating a Slack App
 
-Now that the prerequisites are out of the way, you can create a new Slack app [here](https://api.slack.com/apps?new_granular_bot_app=1). Give the app a name of your choosing, and pick the workspace where you will be sending messages. Click **Create App**
+Now that the prerequisites are out of the way, you can create a new Slack app [here](https://api.slack.com/apps?new_granular_bot_app=1). Give the app a name of your choosing, and pick the workspace where you will be sending messages. Click **Create App**.
 
 ![Creating App](https://github.com/aukeller/Slack-Posting-Messages-with-Python/blob/master/images/CreatingApp.png)
 
@@ -47,7 +47,6 @@ To give your app permission to utilize certain features, you'll need to add a [s
 4. Choose the `chat:write` scope to allow your app to post messages in a channel
 
 ![chat:write](https://github.com/aukeller/Slack-Posting-Messages-with-Python/blob/master/images/chatwrite.png)
-
 
 Next, you will need to install and authorize your app for your workspace. 
 
