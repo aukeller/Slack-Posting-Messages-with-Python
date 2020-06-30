@@ -141,4 +141,4 @@ $ python3 message_tutorial.py
 
 
 
-Congratulations, you've sent you're first message in Slack using Python! If you want learn more about the `chat.postMessage` method, check out the documentation [here](https://api.slack.com/methods/chat.postMessage). You can also find information about the chat method family and other method families at https://api.slack.com/web.
+Congratulations, you've sent you're first message in Slack using Python! If you want to learn more about the `chat.postMessage` method, check out the documentation [here](https://api.slack.com/methods/chat.postMessage). You can also find information about the chat method family and other method families at https://api.slack.com/web.
